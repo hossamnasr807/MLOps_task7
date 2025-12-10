@@ -1,0 +1,15 @@
+PS C:\Users\hossa\OneDrive\Documents\MLops\mlops-lab7\MLOps_task7> 
+
+python -u "c:\Users\hossa\OneDrive\Documents\MLops\mlops-lab7\MLOps_task7\agent.py"
+
+--- Specialist Swarm (Researcher -> Writer -> Researcher Loop) ---
+Enter a topic for research: computer science
+--- Researcher working on: computer science . Please generate a comprehensive report. ---
+
+---- ⏸️  Paused before node: ('Writer',) ----
+Research complete. Proceed to writing?
+(yes/no): yes
+--- Writer working on report ---
+
+[System]: Report saved to 'report.txt'
+PS C:\Users\hossa\OneDrive\Documents\MLops\mlops-lab7\MLOps_task7>
