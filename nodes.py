@@ -3,7 +3,7 @@ from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
 
 # Initialize models
-llm_researcher = ChatOllama(model="qwen3:1.7b", temperature=0) # Make sure you have this model pulled in Ollama
+llm_researcher = ChatOllama(model="qwen3:1.7b", temperature=0) 
 llm_writer = ChatOllama(model="qwen3:1.7b", temperature=0)
 
 def supervisor_node(state):
